@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .div-img{
+        width: 60px;
+        height: 60px;
+      }
+      .div-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="px-5 pt-5 pb-5"
+      style="background-color: #df081a; max-height: 460px"
+    >s
+      <div class="container">
+        <div
+          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-1"
+        >
+          <h1 class="text-white">Hi, Penelope Chris Hendrix</h1>
+          <div class="rounded-circle div-img bg-white"> <img src="./w.jpeg" /> </div>
+        </div>
+
+        <div
+          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3"
+        >
+          <h4 class="text-white">Accounts</h4>
+
+          <span class="text-white">
+            <i class="fa fa-ellipsis-h fa-lg"></i>
+          </span>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col mb-2">
+            <div
+              class="card border-0 text-white shadow"
+              style="background-color: #ee2525; max-height: 400px"
+            >
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
+                >
+                  <h4>CKCARFRE 5811</h4>
+                  <h4>$240,932.43</h4>
+                </div>
+                <div
+                  class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
+                >
+                  <span>x5811</span>
+                  <span>Available</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-2">
+            <div
+              class="card border-0 text-white shadow"
+              style="background-color: #e22626"
+            >
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
+                >
+                  <h4>SAV 2059</h4>
+                  <h4>$900,000.00</h4>
+                </div>
+                <div
+                  class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
+                >
+                  <span>x2059</span>
+                  <span>Available</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <ul class="nav">
+            <li
+              class="nav-item"
+              data-bs-toggle="modal"
+              data-bs-target="#myModal"
+            >
+              <a class="nav-link text-decoration-none" href="#">
+                <div
+                  class="card shadow border-0 text-white"
+                  style="background-color: #f11515"
+                >
+                  <div class="card-body">
+                    <h6 class="text-center"><i class="fa fa-refresh"></i></h6>
+                    <h6>Transfer</h6>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" href="#">
+                <div
+                  class="card shadow border-0 text-white"
+                  style="background-color: #fa1622"
+                >
+                  <div class="card-body">
+                    <h6 class="text-center"><i class="fa fa-money"></i></h6>
+                    <h6>Pay a bill</h6>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" href="#">
+                <div
+                  class="card shadow border-0 text-white"
+                  style="background-color: #f5182b"
+                >
+                  <div class="card-body">
+                    <h6 class="text-center">
+                      <i class="fa fa-commenting-o"></i>
+                    </h6>
+                    <h6>Message</h6>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" href="#">
+                <div
+                  class="card shadow border-0 text-white"
+                  style="background-color: #eb0b0b"
+                >
+                  <div class="card-body">
+                    <h6 class="text-center"><i class="fa fa-usd"></i></h6>
+                    <h6>Send with zelle</h6>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="row mt-3 mb-5">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
+                >
+                  <h6>Transactions</h6>
+                  <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
+                  >
+                    <span class="me-3">
+                      <i class="fa fa-search"></i>
+                    </span>
+                    <span>
+                      <i class="fa fa-ellipsis-h"></i>
+                    </span>
+                  </div>
+                </div>
+
+                <br />
+
+                <div class="mb-4">
+                  <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
+                  >
+                    <div>
+                      <h6>TRANSFER FROM X5811 TO X2059</h6>
+                      <small>
+                        <span class="badge rounded-pill bg-secondary"
+                          >pending</span
+                        >
+                        <span class="text-muted"> Mar 13, CKCARFRE 5811</span>
+                      </small>
+                    </div>
+
+                    <div>
+                      <h6>$500,000.00</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
+                  >
+                    <div>
+                      <h6>TRANSFER FROM X5811 TO X2059</h6>
+                      <small>
+                        <span class="badge rounded-pill bg-secondary"
+                          >pending</span
+                        >
+                        <span class="text-muted"> Mar 20 , CKCARFRE 5811</span>
+                      </small>
+                    </div>
+
+                    <div>
+                      <h6 class="text-success">$600,000.00</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
+                  >
+                    <div>
+                      <h6>TRANSFER FROM X5811 TO X2059</h6>
+                      <small>
+                        <span class="badge rounded-pill bg-secondary"
+                          >pending</span
+                        >
+                        <span class="text-muted"> Apr 1, CKCARFRE 5811</span>
+                      </small>
+                    </div>
+
+                    <div>
+                      <h6 class="text-success">$700,000.00</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
+                  >
+                    <div>
+                      <h6>TRANSFER FROM X5811 TO X2059</h6>
+                      <small>
+                        <span class="badge rounded-pill bg-secondary"
+                          >pending</span
+                        >
+                        <span class="text-muted"> Apr 20, CKCARFRE 5811</span>
+                      </small>
+                    </div>
+
+                    <div>
+                      <h6>$800,000.00</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
+                  >
+                    <div>
+                      <h6>DEPOSIT</h6>
+                      <small>
+                        <span class="badge rounded-pill bg-secondary"
+                          >pending</span
+                        >
+                        <span class="text-muted"> Jan 19, CKCARFRE 5811</span>
+                      </small>
+                    </div>
+
+                    <div>
+                      <h6 class="text-success">$4,900.00</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer border-top-0 bg-white">
+                <div class="d-flex align-content-end justify-content-end">
+                  <button class="btn btn-md bg-light px-5 text-dark">
+                    See more
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-4"
+                >
+                  <h6>CBNA Credit Companion</h6>
+                  <span>
+                    <i class="fa fa-ellipsis-h"></i>
+                  </span>
+                </div>
+
+                <h4>See your credit score</h4>
+
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link text-decoration-none" href="#">
+                      <i class="fa fa-check text-success me-3"></i>
+                      <span class="text-dark">Credit score and report</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-decoration-none" href="#">
+                      <i class="fa fa-check text-success me-3"></i>
+                      <span class="text-dark">24/7 credit monitoring</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-decoration-none" href="#">
+                      <i class="fa fa-check text-success me-3"></i>
+                      <span class="text-dark">Credit usage and alerts</span>
+                    </a>
+                  </li>
+                </ul>
+                <img src="./W3.jpeg" class="w-3"  alt="" style="width: 300px;">
+              </div>
+              <br /><br /><br /><br /><br />
+              <div class="card-footer border-top-0 bg-white">
+                <div class="d-flex align-content-end justify-content-end">
+                  <button class="btn btn-md bg-light px-5 text-dark">
+                    See more
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="card"></div>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Transfer</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="email" class="form-label">Routine Number:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                placeholder="Routine number"
+                name="Routine number"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Account Number</label>
+              <input
+                type="number"
+                class="form-control"
+                id="pwd"
+                placeholder="Account Number"
+                name=""
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Account Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="pwd"
+                placeholder="Account Name"
+                name=""
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Bank Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="pwd"
+                placeholder="Bank Name"
+                name=""
+              />
+            </div>
+
+            <button type="submit" class="btn text-light" style="background-color: #01a1c1;">Send</button>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

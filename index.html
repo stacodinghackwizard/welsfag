@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WellsFargo</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Wells+Fargo+Sans:regular">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="nav_border">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container my_nav">
+                <div class="nav_logo">
+                    <img src="./wf_logo_220x23.webp" alt="wf_logo">
+                </div>
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ATM/Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Español</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#"> <i class="bi bi-search icon_size"></i></a>
+                    </li>
+                    <li>
+                        <button class="nav_btn"> Sign On</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="">
+        <nav class="navbar navbar-expand-md navbar_light">
+            <div class="">
+
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link nav3" href="#"><span>Personal</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav2" href="#">Investing & Wealth Management</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav2" href="#">Small Business</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav2" href="#">Commercial Banking</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav2" href="#">Corporate & Investment Banking</a>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="">
+        <nav class="navbar navbar-expand-md navber3">
+            <div class="">
+
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link nav2" href="#">Checking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav2" href="#">Saving & CDs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav2" href="#">Credit Cards</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav2" href="#">Home Loans</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav2" href="#">Personal Loans</a>
+
+                    </li>
+                    <li>
+                        <a class="nav-link nav2" href="#">Auto Loans</a>
+
+                    </li>
+                    <li>
+                        <a class="nav-link nav2" href="#">Premier</a>
+
+                    </li>
+                    <li>
+                        <a class="nav-link nav2" href="#">Education & Tools</a>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="bg_color py-2">
+        <div class="row p-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title mb-2" id="greeting"></h5>
+                        <p class="card-text">Sign on to manage your accounts</p>
+
+
+
+
+                        <div class="contact-us-box">
+                            <form>
+                                <div class="user-box mb-3">
+                                    <input required type="text  " class="form-control" />
+                                    <label class="form-label">Username</label>
+
+                                </div>
+
+                               
+
+                                
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <div class="input-group ">
+                                      <input type="password" id="password" class="form-control form-label" placeholder="Enter your password">
+                                      <div class="input-group-append">
+                                        <span class="input-group-text">
+                                          <i id="togglePassword" class="fas fa-eye" aria-hidden="true"></i>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+
+                            </form>
+                        </div>
+                        <div class="form-group pl-3 mb-3">
+                            <input type="checkbox" id="save-username" class="form-check-input">
+                            <label for="save-username" class="form-check-label">
+                                <p class="save_user mb-0">Save Username</p>
+                            </label>
+                        </div>
+                        <div class="d-flex">
+                            <button class="sign_on"><a href="other_page.html" class="text-light"> Sign On </a></button>
+                            <a href="#" class="enroll">Enroll</a>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="d-block">Forgot username or password?</a>
+                        <a href="#" class="d-block">Security Center</a>
+                        <a href="#" class="d-block ">Privacy Cookies,and Legal</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p class="checking">$300 checking bonus on us </p>
+                <p class="eligible">Open an eligible checking account with qualifying electronic deposits </p>
+                <button class="button" style="vertical-align:middle"><span>Get started </span></button>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div>
+        <div class="row px-3 py-5">
+            <div class="col-md-3">
+                <div class="card card_2">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <img src="./creditcard_color_gradient_64x64x.webp" alt="card" width="25%">
+                        </div>
+                        <h2 class="card_head">Enjoy 0% intro APR for 21 months</h2>
+                        <p class="card_text pb-3">from account opening on purchases and qualifying balance transfers.
+                            Terms apply.</p>
+                        <a href="#" class="text-dark">Learn more <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card_2">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <img src="./wfi000_ic_b-wf_icon_ui_card_gradient_64x64.webp" alt="card" width="25%">
+                        </div>
+                        <h2 class="card_head">Find a credit card</h2>
+                        <p class="card_text sub_tex pb-5 mb-4">Low intro rate, cash back, rewards and more</p>
+                        <a href="#" class="text-dark">Learn more <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card_2">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <img src="./creditcard_color_gradient_64x64x.webp" alt="card" width="25%">
+                        </div>
+                        <h2 class="card_head">Earn up to 60,000 bonus points</h2>
+                        <p class="card_text sub_text">with the Choice Privileges <sup>@</sup> Mastercard <sup>@</sup>
+                            Credit Cards</p>
+                        <a href="#" class="text-dark">Learn more <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card_2">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h2 class="card_head">Interest rates today</h2>
+                        </div>
+                        <img src="./first_time_experience-account_summary.avif" alt="" class="mt-4 mb-5">
+                        <div>
+                            <a href="#" class="text-dark">Learn more <i class="bi bi-chevron-right"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section4_bg">
+        <div class="row px-5 ">
+            <div class="col-md-5 section4">
+                <p class="section4_head">$525 bonus for new savings customers</p>
+                <p class="section_text">Open a new consumer savings account with qualifying balances
+                </p>
+                <button class="button" style="vertical-align:middle"><span>Get started </span></button>
+
+            </div>
+
+        </div>
+    </div>
+    <div>
+        <p class="section5">Financial guidance and support </p>
+
+        <div class="row px-4">
+            <div class="col-md-4">
+                <div class="card-2" style=" border-radius: 20px;">
+                    <img class="card-img-top" src="./wfi000_ph_g_482407060_616x353.avif" alt="Card image"
+                        style="width:100%; border-radius: 5px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Dream big. Make it happen. Live it up. </h4>
+                        <p class="card-text text_color">Discover how smart saving habits could help make your dream
+                            purchases a reality </p>
+                        <button class="card_btn px-3">Get tips for big purchases</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-2" style=" border-radius: 20px;">
+                    <img class="card-img-top" src="./000_ph_g_1305630454_616x353.avif" alt="Card image"
+                        style="width:100%; border-radius: 5px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Reimagine. Navigate. Move forward. </h4>
+                        <p class="card-text text_color">Discover steps that may help you manage life‑changing events
+                        </p>
+                        <button class="card_btn">Manage life event</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-2" style=" border-radius: 20px; height: 96%;">
+                    <img class="card-img-top" src="./ph_g_1200094303_616x353.avif" alt="Card image"
+                        style="width:100%; border-radius: 5px;">
+                    <div class="card-body">
+                        <h4 class="card-title pb-2">Save. Invest. Retire well. </h4>
+                        <p class="card-text text_color mb-4">Discover how to start saving to meet your retirement goals
+                        </p>
+                        <button class="card_btn mt-5">Get ready for retirement</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section9_bg py-5">
+        <div class="container py-4 d-sm-flex">
+            <img src="./Native_App_Phone_Personal_v8.avif" class="md_img" alt="">
+            <div class="d-block pl-sm-5">
+                <h2 class="section9_header pt-5">Banking in the palm of your hand</h2>
+                <p class="section9_text">Our Wells Fargo Mobile <sup>®</sup> app gives you fast and secure access to
+                    your finances</p>
+                <p class="section9_b">Check your account balance </p>
+                <p class="section9_b">View your latest FICO <sup>®</sup> Score1</p>
+                <p class="section9_b">Send and receive money with Zelle<sup>®</sup> 2 </p>
+                <div class="text-center pr-5">
+                    <strong class="pr-5" style="font-size: 20px;">Download our app </strong>
+                </div>
+                <button class="section9_btn"> <i class="bi bi-apple" style="font-size: 25px;"></i> App Store</button>
+                <button class="section9_btn"><i class="bi bi-google-play" style="font-size: 25px;"></i> Goodle
+                    play</button>
+                <div class="d-block pt-4" style="font-size: 14px;">
+                    <p><sup>*</sup>Screen image is simulated</p>
+                    <p>Zelle <sup>®</sup> and the Zelle <sup>®</sup>related marks are wholly owned by Early Warning <br>
+                        Services, LLC and are used herein under license. </p>
+                    </d-block>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div>
+        <div class="text-center">
+            <p class="section5">Serving our customers and communities </p>
+            <p style="font-size: 21px;">It doesn't happen with one transaction, in one day on the job, or in one
+                quarter. It's earned <br> relationship by relationship.</p>
+        </div>
+        <div class="row over_flow">
+            <div class="col-md-6">
+                <div class="card mt-5 card_md" >
+                    <img class="card-img-top" src="./volunteers_cars_616x353.avif" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title pb-2">Who we are</h4>
+                        <p class="card-text text_color mb-4">Wells Fargo helps strengthen communities through diversity,
+                            equity, and inclusion, economic empowerment, and sustainability.</p>
+                        <button class="card_btn mt-5">About Wells Fargo</button>
+                    </div>
+                </div>
+                <div>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="card mt-5 card_md">
+                    <img class="card-img-top" src="./volunteers_cars_616x353.avif" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title pb-2">Why we're committed to communities</h4>
+                        <p class="card-text text_color mb-4">We don't just serve our communities—we are our communities.
+                            We're committed to helping customers and neighborhoods across the country thrive. .</p>
+                        <button class="card_btn mt-5">Wells Fargo Stories</button>
+                    </div>
+                </div>
+                <div>
+                </div>
+
+            </div>
+        </div>
+        <div class="pl-sm-4 sm_pd">
+            <h4 class="help_text pt-4">How can we help? </h4>
+
+            <div class="d-sm-flex pt-3 sm_font">
+
+                <a class="pt-3 mr-sm-5" style="color: black;"><i class="bi bi-geo-alt reach_us"></i> Find a location</a>
+                <a class="pt-3 ml-sm-5 mr-sm-5" style="color: black;"><i class="bi bi-calendar-check reach_us"></i> Make
+                    an appointment</a>
+                    <div class="pt-3">
+                <a class="pt-3 ml-sm-5" style="color: black;"><i class="bi bi-question-circle reach_us"></i> Quick
+                    help</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div class="section10 mt-5 px-4">
+
+        <footer class="mb-0">
+            <ul class="">
+                <li><a href="#" class="text-dark pl-1">Privacy, Cookies, Security & Legal</a></li>
+                <li><a href="#" class="footer_a pl-2 pr-1">Notice of Data Collection</a></li>
+                <li><a href="#" class="footer_a  pl-3 pr-1">General Terms of Use</a></li>
+                <li><a href="#" class="footer_a  pl-3 pr-1">Online Access Agreement</a></li>
+                <li><a href="#" class="footer_a  pl-3 pr-1">Ad Choices</a></li>
+                <li><a href="#" class="footer_a  pl-3 pr-1">Report Fraud</a></li> 
+                
+                <div class="pt-3">
+                <li><a href="#" class="text-dark  ">Careers</a></li>
+                <li><a href="#" class="footer_a  pl-3 pr-1">Diversity and Accessibility</a></li>
+                <li><a href="#" class="footer_a  pl-3 pr-1">Sitemap</a></li>
+                </div>
+
+
+
+            </ul>
+            <ul class="pt-4">
+                <li style="background-color:  rgba(0, 0, 0, 0.773); padding: 0px 6px;"><a href=""><i class="bi bi-facebook" style="color: white; font-size: 19px;">
+                </i></a></li>
+                <li style="background-color: rgba(0, 0, 0, 0.773); padding: 0px 6px;"><a href=""><i class="bi bi-linkedin" style="color: white; font-size: 19px;"></i></a></li>
+                <li style="background-color:  rgba(0, 0, 0, 0.773); padding: 0px 6px;"><a href=""><i class="bi bi-instagram" style="color: white; font-size: 19px;"></i></a></li>
+                <li style="background-color:  rgba(0, 0, 0, 0.773); padding: 0px 6px;"><a href=""><i class="bi bi-pinterest" style="color: white; font-size: 19px;"></i></a></li>
+                <li style="background-color:  rgba(0, 0, 0, 0.773); padding: 0px 6px;"><a href=""><i class="bi bi-youtube" style="color: white; font-size: 19px;"></i></a></li>
+                <li style="background-color:  rgba(0, 0, 0, 0.773); padding: 0px 6px;"><a href=""><i class="bi bi-twitter" style="color: white; font-size: 19px;"></i></a></li>
+
+            </ul>
+            <p class="pt-4" style="line-height: 22px;">1. You must be the primary account holder of an eligible Wells Fargo consumer account with a FICO® Score available, and enrolled in Wells Fargo Online®. Eligible Wells Fargo consumer accounts include deposit, loan, and credit accounts, but other consumer accounts may also be eligible. Contact Wells Fargo for details. Availability may be affected by your mobile carrier’s coverage area. Your mobile carrier's message and data rates may apply.</p>
+            <p class="pt-3" style="line-height: 22px;">Please note that the score provided under this service is for educational purposes and may not be the score used by Wells Fargo to make credit decisions. Wells Fargo looks at many factors to determine your credit options; therefore, a specific FICO® Score or Wells Fargo credit rating does not guarantee a specific loan rate, approval of a loan, or an upgrade on a credit card.
+                <p class="pt-3" style="line-height: 22px;">Wells Fargo and Fair Isaac are not credit repair organizations as defined under federal and state law, including the Credit Repair Organizations Act. Wells Fargo and Fair Isaac do not provide credit repair services or advice or assistance with rebuilding or improving your credit record, credit history, or credit rating.                </p>
+                    <p class="pt-3" style="line-height: 22px;">FICO is a registered trademark of Fair Isaac Corporation in the United States and other countries.
+                    </p>
+                    <p class="pt-3" style="line-height: 22px;">2. Enrollment with Zelle® through Wells Fargo Online® or Wells Fargo Business Online® is required. Terms and conditions apply. U.S. checking or savings account required to use Zelle®. Transactions between enrolled users typically occur in minutes. For your protection, Zelle® should only be used for sending money to friends, family, or others you trust. Neither Wells Fargo nor Zelle® offers a protection program for authorized payments made with Zelle®. The Request feature within Zelle® is only available through Wells Fargo using a smartphone. Payment requests to persons not already enrolled with Zelle® must be sent to an email address. To send or receive money with a small business, both parties must be enrolled with Zelle® directly through their financial institution’s online or mobile banking experience. For more information, view the   <a href="#">Zelle <sup>®</sup> Transfer Service Addendum to the Wells Fargo Online Access Agreement. </a> 
+                        Your mobile carrier's message and data rates may apply. Account fees (e.g., monthly service, overdraft) may apply to Wells Fargo account(s) with which you use Zelle <sup>®</sup>.</a></p>
+            </p>
+
+            <div style="border: 1px solid black; font-size: 17px; padding: 20px;">
+                <strong>Investment and Insurance Products are:</strong>
+                <ul class="py-3 pl-2">
+                    <li class="list py-1"><strong>Not Insured by the FDIC or Any Federal Government Agency</strong></li>
+                    <li class="list py-1"><strong>Not a Deposit or Other Obligation of, or Guaranteed by, the Bank or Any Bank Affiliate</strong></li>
+                    <li class="list py-1"><strong>Subject to Investment Risks, Including Possible Loss of the Principal Amount Invested  </strong></li>
+                  </ul>
+            </div>
+
+            <p class="pt-4">
+                Investment products and services are offered through Wells Fargo Advisors. Wells Fargo Advisors is a trade name used by Wells Fargo Clearing Services, LLC (WFCS) and Wells Fargo Advisors Financial Network, LLC, Members <a href="#">SIPC</a> , separate registered broker-dealers and non-bank affiliates of Wells Fargo & Company.</p>
+                <p class="pt-3">Android, Chrome, Google Pay, Google Pixel, Google Play, Wear OS by Google, and the Google Logo are trademarks of Google LLC.
+                </p>
+                <p class="pt-3">Apple, the Apple logo, Apple Pay, Apple Watch, Face ID, iCloud Keychain, iPad, iPad Pro, iPhone, iTunes, Mac, Safari, and Touch ID are trademarks of Apple Inc., registered in the U.S. and other countries. Apple Wallet is a trademark of Apple Inc. App Store is a service mark of Apple Inc.
+                </p>
+                <p class="pt-3">Deposit products offered by Wells Fargo Bank, N.A. Member FDIC.
+                </p>
+                <strong class="pt-3"><i class="bi bi-house-door"></i> ‍ Equal Housing Lender</strong>
+                <p class="pt-3">CAR-0123-04385</p>
+                <p class="pt-3">LRC-0123</p>
+                <p class="pt-3 mb-0">© 1999 - 2024 Wells Fargo. NMLSR ID 399801</p>
+
+
+
+        </footer> 
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

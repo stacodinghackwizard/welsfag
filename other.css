@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Wells Fargo Sans', Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: rgb(215, 31, 41);
+    padding: 10px 0 !important;
+    font-size: 10px;
+  }
+  
+  .nav_border {
+    border-bottom: 4px solid #ffcd41 !important;
+  
+  }
+  .icon_size {
+    font-size: 10px;
+    padding-left: 14px;
+  }
+  
+  .my_nav {
+    display: flex;
+    justify-content: space-between !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 13px !important;
+    padding: 5px 15px !important;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+  }
+  .nav_btn {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.896);
+    border-radius: 23px;
+    padding: 10px 15px;
+    border: none;
+    margin-left: 20px;
+  }
+  
+  .navbar_light {
+    background-color: #f9f7f6 !important;
+  }
+  .search{
+    background-color: white;
+    border-radius: 8px;
+  }
+  .bg_color2 {
+    background-image: url(./COB-BOB-IRT-enroll_balloons.jpeg);
+    /* background-position: center; */
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: #3b3331;
+    padding-bottom: 30px;
+
+  }
+  .bg-light{
+    width: 900px;
+    height: 540px;
+    border-radius: 12px;
+  }
+  h2{
+    font-size: 24px;
+  }
+.invest_div{
+  height: 250px !important;
+}
+  .sm_mg{
+    /* margin-left: 28%; */
+  }
+  .con_sm{
+    margin: 0 30%;
+  }
+  .login{
+    width: 50% !important;
+  }
+
+  ul {
+    list-style-type: none; 
+  }
+  
+  .list:before {
+    content: "\2022";
+    margin-right: 5px; 
+  }
+  
+  ul .listing {
+    list-style-type: none; 
+  }
+@media (max-width: 978px){
+
+  .bg-light{
+    width: 360px;
+    height: 540px;
+  }
+  .bg_color2 {
+    /* background-position: center; */
+    height: 1200px;
+    color: #3b3331;
+    padding-bottom: 30px;
+
+}
+.con_sm{
+  margin: 0 0;
+}
+.invest_div{
+  height: 450px !important;
+}
+.login{
+  width: 100% !important;
+}
+
+}
