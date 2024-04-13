@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ffffff;
+}
+
+.wrapper {
+    width: 450px;
+    height: 350px;
+    background: transparent;
+    border: 5px solid #2aed3b;
+    padding: 5px;
+}
+
+h5 {
+    color: #111a21;
+    font-size: 15px;
+}
+
+.h5 {
+    margin-top: 20px;
+}
+
+.border {
+    margin-top: 2px;
+    border: 1px solid gray;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.border p {
+    padding-left: 5px;
+    margin-top: 0;
+}
+
+p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.span {
+    padding: 10px 20px;
+    color: #2aed3b;
+    border-left: 1px solid gray;
+}
+
+.amount {
+    margin-top: 15px;
+}
+
+.amount p {
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.amount p span {
+    color: #007aad;
+}
+
+.amount .border-2 {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border: 1px solid gray;
+    gap: 5%;
+}
+
+.naira {
+    background: gainsboro;
+    width: 38px;
+    text-align: center;
+}
+
+.naira-2 {
+    padding-right: 5px;
+}
+
+.last {
+    font-weight: 500 !important;
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.gray {
+    background: gray;
+    width: 70px;
+}
+
+.blue {
+    background: #007aad;
+    color: #fff;
+    width: 80px;
+}
+
+.button-cover{
+    padding: 5px;
+    background: #fff;
+    border: 5px solid #2aed3b;
+}
